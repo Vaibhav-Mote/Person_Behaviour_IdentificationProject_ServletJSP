@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.rightMenuDiv{
+width: 85%;
+	height: 100vh;
+	overflow: scroll;
+		margin-left: 1px;
+		background: linear-gradient(to right, #0f0c29, #302b63, #24243e);		
+}
+

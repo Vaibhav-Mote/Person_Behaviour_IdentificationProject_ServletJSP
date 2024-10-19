@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rightMenuDiv{
+	min-height: 300px;
+	overflow: scroll;
+}
+.profileMainDiv {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.profileLeftMenuDiv {
+    width: 15%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+   
+    
+}
+.profilemainContaint{
+	width: 84%;
+	height:auto;
+	margin-left: 1px;
+	width: 60%;
+	margin-left: 200px;
+	margin-top: 5px;
+    
+	
+}
+
+.profilecs{
+	width: 90%;
+	min-height: 150px;
+	margin-left: 35px;
+	display: flex;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+.profilePhotoLogocs{
+	width: 20%;
+	margin-top: 15px;
+	border-radius: 50%;
+	height: 110px;
+	background-color: white;
+	
+	
+}
+
+.usernamecs{
+	width: 70%;
+	height: auto;
+	
+}
+.usernamecs h2{
+	color: white;
+	margin-top: 10px;
+	margin-left: 20px;
+} 
+.usernamecs h5{
+	color: white;
+	margin-left: 20px;
+}
+
+.usernamecs p{
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.usernamecs a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+.usernamecs a:hover{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}

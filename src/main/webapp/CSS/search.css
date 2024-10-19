@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Georgia, serif;
+}
+
+.allcontaint{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	
+}
+.leftdiv{
+	width: 15%;
+	height: 100%;
+	
+}
+.pointedDiv{
+	overflow: scroll;
+}
+.maincontaint{
+	width: 85%;
+	height: 100vh;
+	overflow: scroll;
+		background-color: red;
+		margin-left: 1px;
+		background: linear-gradient(to right, #0f0c29, #302b63, #24243e);	
+}
+.searchdiv{
+	width: 50%;
+	min-height: 95vh;
+	margin: auto;
+	margin-top: 10px;
+}
+#searchinput{
+	width: 350px;
+	padding: 8px;
+	margin-left: 100px;
+	border-radius: 10px;
+}
+.followerInfo{
+	width: 90%;
+	height: 80px;
+	border: 1px solid rgb(255, 255, 255);
+	margin-left: 35px;
+	margin-top: 5px;
+	display: flex;
+	border-radius: 0px 40px;
+	padding: 10px;	
+}
+.logo{
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	border-radius: 50%;
+}
+.username{
+	width: 300px;
+	height: 100%;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: white;
+	
+	
+	}
+#anker:hover{
+	text-decoration: none;
+	
+}
+.follows{
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	
+}
+
+#follow{
+	padding: 5px 8px;
+	margin-top: 2px;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	
+}
+#follow:hover{
+	background-color: blue;
+	color: white;
+}

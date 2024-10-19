@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+.leftdiv2 {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	font-family: Georgia, serif;
+	top: 0;
+}
+.hk:hover{
+	background: linear-gradient(rgb(217, 214, 243), rgb(91, 82, 180), #24243e);
+	color: white;
+}
+
+.profilelogo{
+display: flex;
+padding: 5px;
+border-radius: 10px;
+padding-top: 12px;
+
+}
+
+
+.firstNamelogo{
+ width: 43px;
+ height: 40px;
+ margin-left: 10px;
+ margin-top: 4px;
+ 
+}
+
+.firstNamelogo h2{
+	color: blue;
+	background: white;
+	padding-left: 13px;
+	border-radius: 50%;
+	padding-bottom: 4px;
+}
+.leftdivMenu{
+	padding-top: 40px;
+}
+.leftdivMenu a{
+	padding: 13px;
+	margin-left: 10px;
+	 font-family: Georgia, serif;
+}
+.leftdivMenu a i{
+	width: 30px;
+	size: 30px;
+	
+	
+}
+#logout{
+	padding-left: 40px;
+}

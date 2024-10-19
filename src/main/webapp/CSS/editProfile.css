@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	 font-family: Georgia, serif;
+}
+.maindiv{
+	width: 100%;
+	min-height:100vh ;
+	display: flex;
+	
+}
+.leftmenu{
+	width: 15%;
+	min-height:100vh ;	
+}
+.maincontaint{
+	width: 85%;
+	min-height: 100vh;
+	 background: linear-gradient(to right, #0f0c29, #302b63, #24243e);	
+	margin-left: 1px;
+}
+.maincontaint .editprofile {
+    width: 43%;
+    height: 90vh;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 0px 100px;
+}
+
+#editheader{
+	color:white;
+	padding-top: 10px;
+	padding-left: 33%;
+	
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	margin-left: 40%;
+	border-radius: 50%;
+}
+.editprofile label{
+	color: white;
+	padding-left: 40px;
+	font-size: 1.2em;;
+	padding-top: 5px;
+}
+.editprofile input{
+	margin-left: 40px;
+	width: 80%;
+	padding: 3px;
+	
+}
+#btn{
+	width: 100px;
+	margin-top: 30px;
+	margin-left: 40%;
+}
+#btn:hover{
+	width: 100px;
+	margin-top: 30px;
+	margin-left: 40%;
+	background-color: blue;
+	text-decoration: none;
+	border: 1px solid blue;
+	
+}
+#message{
+	color: white;
+}

@@ -1,0 +1,45 @@
+
+	*{
+		
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Georgia, serif;
+	}
+	
+.mainlogin{
+	height: 100%;
+	width: 100%;
+	
+	
+}
+#mainImg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+}
+
+.loginformdiv{
+	width: 30%;
+	position: relative;
+	left: 50em;
+	top: 10em;
+	border-style: groove;
+	padding: 30px;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgb(255, 255, 255) 0px 50px 100px -20px, rgb(255, 255, 255) 0px 30px 60px -30px;
+}
+.loginformdiv label{
+	color:white;
+}
+#gifimg{
+	width: 100px;
+	height: 100px;
+}
+
+#submitbtn{
+	margin-left: 50px;
+	padding: 8px;
+	width: 100px;
+	color: white;
+}
